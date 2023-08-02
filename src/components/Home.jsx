@@ -57,11 +57,7 @@ const Home = () => {
         className="w-2/4 h-5/6  flex-1 flex  
       justify-around items-center flex-col"
       >
-        <img
-          src="/home/mobasir/Desktop/Portfolioweb/src/images/logo.png"
-          alt="logo"
-          className="logo"
-        />
+        <img src="./images/logo.png" alt="logo" className="logo" />
       </div>
     </div>
   );
