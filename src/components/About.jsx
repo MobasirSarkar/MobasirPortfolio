@@ -73,7 +73,7 @@ const About = () => {
         </div>
         <div className="w-2/5 h-full logoA flex">
           <img
-            src="https://domain.com/src/images/LogoABoutwithNOBg1.png"
+            src="src/images/LogoABoutwithNOBg1.png"
             alt=""
             className="logoAbout"
           />

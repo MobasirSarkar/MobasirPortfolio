@@ -58,7 +58,7 @@ const Home = () => {
       justify-around items-center flex-col"
       >
         <img
-          src="https://domain.com/src/images/logo.png"
+          src="/home/mobasir/Desktop/Portfolioweb/src/images/logo.png"
           alt="logo"
           className="logo"
         />
