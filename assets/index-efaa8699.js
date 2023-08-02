@@ -881,7 +881,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
           relative`,src:"src/images/IMG-0037.jpg",alt:""}),w.jsx(sg,{})]}),w.jsxs("ul",{className:` text-black flex justify-center 
       items-center pt-14 `,children:[w.jsx("li",{className:`links pr-20 hover:scale-75
            duration-500 delay-100 ease in out`,onClick:()=>t("/Projects"),children:"Projects"}),w.jsx("li",{className:`links pr-20 hover:scale-75
-           duration-500 delay-100 ease in out`,onClick:()=>t("/"),children:"Home"}),w.jsx("li",{className:`links pr-20 hover:scale-75
+           duration-500 delay-100 ease in out`,onClick:()=>t("/Home"),children:"Home"}),w.jsx("li",{className:`links pr-20 hover:scale-75
            duration-500 delay-100 ease in out`,onClick:()=>t("/Contact"),children:"Contact"}),w.jsx("li",{className:`links pr-20 hover:scale-75
            duration-500 delay-100 ease in out`,onClick:()=>t("/About"),children:"About"})]})]})},fg=()=>w.jsxs("div",{className:"w-screen h-32 flex",children:[w.jsx("div",{className:`w-2/6 text-black text-4xl flex 
       items-end mb-4`,children:w.jsx("div",{className:"pb-4 pl-4",children:"© Copyright 2023- All Right Reserved"})}),w.jsx("div",{className:`w-2/6 flex text-4xl items-end 
