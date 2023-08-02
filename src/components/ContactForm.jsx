@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 
 const ContactForm = (e) => {
-  const data = e.target.value;
-  console.log(data);
   const [email, setEmail] = useState("");
   const [fullName, setFullName] = useState("");
   const [message, setMessage] = useState("");
