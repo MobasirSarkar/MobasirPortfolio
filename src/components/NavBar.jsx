@@ -44,7 +44,7 @@ const NavBar = () => {
         <li
           className="links pr-20 hover:scale-75
            duration-500 delay-100 ease in out"
-          onClick={() => Navigate("/")}
+          onClick={() => Navigate("/Home")}
         >
           Home
         </li>
