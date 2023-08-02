@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const ContactForm = () => {
+const ContactForm = (e) => {
   const data = e.target.value;
   console.log(data);
   const [email, setEmail] = useState("");

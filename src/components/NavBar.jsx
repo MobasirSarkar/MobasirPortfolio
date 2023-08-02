@@ -25,7 +25,7 @@ const NavBar = () => {
           className=" w-32 h-32
           rounded-full ml-11 mt-9 bg-cover
           relative"
-          src="src/images/IMG-0037.jpg"
+          src="https://domain.com/src/images/IMG-0037.jpg"
           alt=""
         />
         <Resume />
