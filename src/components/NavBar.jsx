@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./NavBar.css";
 import Resume from "./Resume";
+import NavImg from "../images/NavImg.jpg";
+
 const NavBar = () => {
   const handleClick = (event) => {
     const link = event.currentTarget;
@@ -21,13 +23,15 @@ const NavBar = () => {
           className="w-36 h-36 rounded-full bg - bg-gradient-to-r from-violet-600 to-pink-500
      ml-9 mt-14 absolute mb-5 border-2 border-black"
         ></div>
-        <img
-          className=" w-32 h-32
+        <div>
+          <img
+            className=" w-32 h-32
           rounded-full ml-11 mt-9 bg-cover
           relative"
-          src="home/mobasir/Desktop/Portfolioweb/src/images/IMG-0037.jpg"
-          alt=""
-        />
+            src={NavImg}
+            alt=""
+          />
+        </div>
         <Resume />
       </div>
       <ul

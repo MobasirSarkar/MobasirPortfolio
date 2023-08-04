@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
-import logo from "../images/logo.png";
+import Logo from "../images/Logo.png";
 
 const Home = () => {
   const el = useRef(null);
@@ -58,7 +58,9 @@ const Home = () => {
         className="w-2/4 h-5/6  flex-1 flex  
       justify-around items-center flex-col"
       >
-        <img src={logo} alt="logo" className="logo" />
+        <div>
+          <img src={Logo} alt="logo" className="logo" />
+        </div>
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-
+import AboutImg from "../images/AboutImg.png";
 const About = () => {
   return (
     <div
@@ -72,11 +72,7 @@ const About = () => {
           </div>
         </div>
         <div className="w-2/5 h-full logoA flex">
-          <img
-            src="src/images/LogoABoutwithNOBg1.png"
-            alt=""
-            className="logoAbout"
-          />
+          <img src={AboutImg} alt="" className="logoAbout" />
         </div>
       </div>
     </div>
