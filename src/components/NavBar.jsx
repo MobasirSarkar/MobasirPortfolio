@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./NavBar.css";
 import Resume from "./Resume";
-import NavImg from "../images/NavImg.jpg";
+import NavImg from "../images/NavImg.png";
 
 const NavBar = () => {
   const handleClick = (event) => {
@@ -29,7 +29,7 @@ const NavBar = () => {
           rounded-full ml-11 mt-9 bg-cover
           relative"
             src={NavImg}
-            alt=""
+            alt="NavBar Image"
           />
         </div>
         <Resume />
