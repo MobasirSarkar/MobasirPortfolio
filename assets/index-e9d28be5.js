@@ -873,12 +873,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
        hover:text-white hover:bg-black hover:scale-105 delay-100 transform-gpu transition-all
        ease in out ml-8 mt-8`,children:["resume",e]})})},ug=()=>{const e=O.useRef(null);return O.useEffect(()=>{const t=new qd(e.current,{strings:["UpLoading","Soon..."],typeSpeed:100,startDelay:300,backSpeed:100,backDelay:100,smartBackspace:!0,loop:!0,showCursor:!0,cursorChar:"!"});return()=>{t.destroy()}},[]),y.jsx("div",{className:`mt-32 flex w-screen h-screen
     justify-center items-center `,children:y.jsx("div",{ref:e,className:`mb-72 text-9xl text-white 
-        flex w-screen h-screen font-bold justify-center items-center`})})};const cg="/MobasirPortfolio/assets/NavImg-68e993e9.jpg",fg=()=>{const e=zv();return y.jsxs("div",{className:` text-white text-6xl flex w-screen justify-end 
+        flex w-screen h-screen font-bold justify-center items-center`})})};const cg="/MobasirPortfolio/assets/NavImg-5a13d0c3.png",fg=()=>{const e=zv();return y.jsxs("div",{className:` text-white text-6xl flex w-screen justify-end 
     h-32  items-center font-bold`,children:[y.jsxs("div",{className:`flex flex-1  
      items-center justify-start`,children:[y.jsx("div",{className:`w-36 h-36 rounded-full bg - bg-gradient-to-r from-violet-600 to-pink-500
      ml-9 mt-14 absolute mb-5 border-2 border-black`}),y.jsx("div",{children:y.jsx("img",{className:` w-32 h-32
           rounded-full ml-11 mt-9 bg-cover
-          relative`,src:cg,alt:""})}),y.jsx(sg,{})]}),y.jsxs("ul",{className:` text-black flex justify-center 
+          relative`,src:cg,alt:"NavBar Image"})}),y.jsx(sg,{})]}),y.jsxs("ul",{className:` text-black flex justify-center 
       items-center pt-14 `,children:[y.jsx("li",{className:`links pr-20 hover:scale-75
            duration-500 delay-100 ease in out`,onClick:()=>e("/Projects"),children:"Projects"}),y.jsx("li",{className:`links pr-20 hover:scale-75
            duration-500 delay-100 ease in out`,onClick:()=>e("/Home"),children:"Home"}),y.jsx("li",{className:`links pr-20 hover:scale-75
